@@ -23,7 +23,7 @@ body {
 a {
   text-decoration: none;
   color: #fff;
-  transition: .3s ease-out;
+  transition: 0.3s ease-out;
   transition-property: color;
 
   &:hover {
@@ -36,8 +36,8 @@ header {
   background: #222;
   text-align: center;
   font-weight: 100;
-  opacity: .6;
-  padding: .5rem;
+  opacity: 0.6;
+  padding: 0.5rem;
 }
 
 #calculator {
@@ -228,7 +228,7 @@ header {
           font-size: clamp(0.5rem, 2vh, 0.8rem);
           margin-left: 0.3rem;
           text-align: center;
-            display: inline-block;
+          display: inline-block;
         }
 
         &:hover {
@@ -242,7 +242,6 @@ header {
 
 @media (max-width: 800px) {
   #calculator {
-
     .mainContainer {
       grid-template-columns: 1fr;
       grid-template-rows: 1fr 1fr;
@@ -268,7 +267,6 @@ header {
         grid-row: 1/2;
       }
     }
-
   }
 }
 

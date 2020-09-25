@@ -20,8 +20,8 @@ body {
 a {
   text-decoration: none;
   color: #fff;
-  -webkit-transition: .3s ease-out;
-  transition: .3s ease-out;
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
   -webkit-transition-property: color;
   transition-property: color;
 }
@@ -35,8 +35,8 @@ header {
   background: #222;
   text-align: center;
   font-weight: 100;
-  opacity: .6;
-  padding: .5rem;
+  opacity: 0.6;
+  padding: 0.5rem;
 }
 
 #calculator {

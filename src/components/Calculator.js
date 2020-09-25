@@ -88,7 +88,7 @@ function Calculator() {
   return (
     <section id="calculator">
       <CalculatorContext.Provider
-        value={{inputValue, setInputValue, result, setResult}}
+        value={{ inputValue, setInputValue, result, setResult }}
       >
         <h1>Nice Calculator</h1>
         <div className="mainContainer">
