@@ -14,7 +14,7 @@ function CreateOprators(props) {
       <button onClick={handleClick} name="**2">
         x<sup>2</sup>
       </button>
-      <button onClick={handleClick} name="**.5">
+      <button onClick={handleClick} name="**0.5">
         x<sup>1/2</sup>
       </button>
       <button onClick={handleClick} name="*">
